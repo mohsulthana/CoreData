@@ -14,6 +14,8 @@
 		17F31C552632660E00DE5E62 /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 17F31C532632660E00DE5E62 /* CoreData.xcdatamodeld */; };
 		17F31C572632660E00DE5E62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17F31C562632660E00DE5E62 /* Assets.xcassets */; };
 		17F31C5A2632660E00DE5E62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17F31C582632660E00DE5E62 /* LaunchScreen.storyboard */; };
+		17F31C652632693D00DE5E62 /* Employee+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F31C632632693D00DE5E62 /* Employee+CoreDataClass.swift */; };
+		17F31C662632693D00DE5E62 /* Employee+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F31C642632693D00DE5E62 /* Employee+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		17F31C562632660E00DE5E62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17F31C592632660E00DE5E62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17F31C5B2632660E00DE5E62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17F31C632632693D00DE5E62 /* Employee+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Employee+CoreDataClass.swift"; sourceTree = "<group>"; };
+		17F31C642632693D00DE5E62 /* Employee+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Employee+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +46,8 @@
 		17F31C3E2632660E00DE5E62 = {
 			isa = PBXGroup;
 			children = (
+				17F31C632632693D00DE5E62 /* Employee+CoreDataClass.swift */,
+				17F31C642632693D00DE5E62 /* Employee+CoreDataProperties.swift */,
 				17F31C492632660E00DE5E62 /* CoreData */,
 				17F31C482632660E00DE5E62 /* Products */,
 			);
@@ -141,8 +147,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				17F31C552632660E00DE5E62 /* CoreData.xcdatamodeld in Sources */,
+				17F31C662632693D00DE5E62 /* Employee+CoreDataProperties.swift in Sources */,
 				17F31C4F2632660E00DE5E62 /* ViewController.swift in Sources */,
 				17F31C4B2632660E00DE5E62 /* AppDelegate.swift in Sources */,
+				17F31C652632693D00DE5E62 /* Employee+CoreDataClass.swift in Sources */,
 				17F31C4D2632660E00DE5E62 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -6,8 +6,11 @@
 //
 
 import UIKit
+import CoreData
 
 class ViewController: UIViewController {
+    
+    // 1. Initialize entity
 
     override func viewDidLoad() {
         super.viewDidLoad()
